@@ -10,13 +10,13 @@
     <img id="sun" src="images/sun1.png" alt="Sun">
     <img id="cloud" src="images/rain-cloud1.png" alt="Rain Cloud">
     <div id="rainbow" style="display: none">
-        <!-- Intentional "bugs": missing yellow arch, swapped blue/green order -->
-        <div id="arch" class="red"></div>
-        <div id="arch" class="orange"></div>
-        <div id="arch" class="blue"></div> <!-- Blue appears before green (wrong order) -->
-        <div id="arch" class="green"></div>
-        <div id="arch" class="indigo"></div>
-        <div id="arch" class="violet" style="background-color: indigo"></div> <!-- Violet color is wrong -->
+        <div class="arch red" style='background-color: green'></div>
+        <div class="arch orange"></div>
+        <div class="arch yellow"></div>
+        <div class="arch blue"></div>
+        <div class="arch green"></div> <!-- Should blue come before green?-->
+        <div class="arch indigo"></div>    
+        <!-- We are missing the V of ROYGBIV -->
     </div>
     <script src="script.js"></script>
 </body>
