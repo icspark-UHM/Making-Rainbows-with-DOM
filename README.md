@@ -1,8 +1,8 @@
-# hello-world-test
+# Making-Rainbows-with-DOM
 
-## Simple Website Tutorial
+## Write some DOM code in JavaScript to fix the rainbow
 
-Welcome to the Simple Website Tutorial! This guide will walk you through the steps to create a basic website using HTML, CSS, and JavaScript.
+In this project, you'll learn how to manipulate the Document Object Model (DOM) using JavaScript to change images and fix a rainbow that was made using HTML and CSS.
 
 ## Table of Contents
 
@@ -10,11 +10,11 @@ Welcome to the Simple Website Tutorial! This guide will walk you through the ste
 - [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
 - [Step-by-Step Guide](#step-by-step-guide)
-  - [1. Create the HTML File](#1-create-the-html-file)
-  - [2. Create the CSS File](#2-create-the-css-file)
-  - [3. Create the JavaScript File](#3-create-the-javascript-file)
-  - [4. Link the CSS and JavaScript Files](#4-link-the-css-and-javascript-files)
-  - [5. Open the HTML File in a Browser](#5-open-the-html-file-in-a-browser)
+  - [1. Changing the Cloud Image](#1-changing-the-cloud-image)
+  - [2. Making the Rainbow Appear](#2-making-the-rainbow-appear)
+  - [3. Fixing the Rainbow's Colors](#3-fixing-the-rainbow's-colors)
+  - [4. Adding the Missing Violet Arch](#4-adding-the-missing-violet-arch)
+  - [5. Correcting the Color Order](#5-correcting-the-color-order)
 - [Things to Look Out For](#things-to-look-out-for)
 - [Conclusion](#conclusion)
 
