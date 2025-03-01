@@ -59,7 +59,7 @@ Example:
 To change an image's source dynamically, you can use:
 ```javascript
 // Example of changing an image source
-const exampleImage = document.getElementById('exampleId');
+let exampleImage = document.getElementById('exampleId');
 exampleImage.src = 'images/new-image.png';
 ```
 Remember to look at the file path relative to where you are in the project folder. 
@@ -73,7 +73,7 @@ The rainbow is currently hidden with CSS display: none. We need to:
 To change the display style of an element we need to access its css properties using .style and then target the specific css property which in our case is display.
 Try something that looks like this:
 ```js
-const exampleElement = document.getElementById('exampleId');
+let exampleElement = document.getElementById('exampleId');
 element.style.cssAttribute = 'change-this';
 ```
 ❗ _**Important:**_ the rainbow ID holds all the arches inside and is the equivalent of the 'parent' in the future example code. Parent(rainbow) encases all the children(arch). You can see in the html code.
@@ -99,7 +99,7 @@ Task:
 Example:
 ```javascript
 // Creating and appending an element
-const newElement = document.createElement('div');
+let newElement = document.createElement('div');
 newElement.className = 'class1 class2';
 parent.appendChild(newElement);
 ```
