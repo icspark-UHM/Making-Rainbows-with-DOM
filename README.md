@@ -87,6 +87,7 @@ The rainbow is currently hidden with CSS display: none. We need to:
 To change the display style of an element we need to access its css properties using .style and then target the specific css property which in our case is display.
 Try something that looks like this:
 ```js
+const exampleElement = document.getElementById('exampleId');
 element.style.cssAttribute = 'change-this';
 ```
 Important: the rainbow ID holds all the arches inside and is the equivalent of the 'parent' in the future example code. Parent(rainbow) encases all the children(arch). You can see in the html code.
@@ -98,7 +99,6 @@ The outermost arch of the rainbow is incorrectly colored green instead of red. T
 
 ### 4. Adding the Missing Violet Arch
 
-4. Adding the Missing Violet Arch
 Our rainbow is missing the "V" from ROYGBIV (Red, Orange, Yellow, Green, Blue, Indigo, Violet).
 Task:
 - Create a new div element
