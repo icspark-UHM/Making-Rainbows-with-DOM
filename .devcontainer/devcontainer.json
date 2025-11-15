@@ -1,7 +1,10 @@
 {
   "name": "icspark-webdev-env",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "forwardPorts": [3000, 3001],
+  "image": "debian:bookworm-slim",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "forwardPorts": [3000],
   "customizations": {
     "vscode": {
       "extensions": [
@@ -11,10 +14,7 @@
   },
   "portsAttributes": {
     "3000": {
-      "label": "Live Server"
-    },
-    "3001": {
-      "label": "IGNORE ME"
+      "label": "Live Preview"
     }
   },
   "postAttachCommand": ". .devcontainer/welcome.sh"
